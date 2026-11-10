@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us — Men Salon</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="siteHeaderMount"></div>
+
+  <main>
+    <section class="subpage-hero">
+      <div class="container">
+        <span class="eyebrow">Since 1998</span>
+        <h1>About Us</h1>
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="sep">/</span>
+          <span>About Us</span>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section-pad">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-media-wrap reveal">
+            <div class="parallax-frame">
+              <img src="assets/images/about-image.webp" alt="Men Salon Studio Heritage" />
+            </div>
+            <div class="ms-rotate-badge">
+              <svg class="spinner" viewBox="0 0 100 100">
+                <defs><path id="circlePathAbout" d="M50,50 m-37,0 a37,37 0 1,1 74,0 a37,37 0 1,1 -74,0" /></defs>
+                <text><textPath href="#circlePathAbout">CRAFTED FOR MODERN GENTLEMEN &bull; </textPath></text>
+              </svg>
+              <div class="ms-rotate-center-icon" aria-hidden="true">✂</div>
+            </div>
+          </div>
+          <div class="reveal">
+            <span class="eyebrow">Our Philosophy</span>
+            <h2 class="section-title">Crafting Timeless Styles, Building Confidence</h2>
+            <p style="margin-bottom:20px;">
+              Our skilled barbers combine classic techniques with modern trends to deliver clean cuts, precision fades, and perfectly groomed beards. Every appointment is tailored to your style, ensuring exceptional service, premium care, and a relaxing atmosphere where you always leave looking sharp and feeling your absolute best.
+            </p>
+            <p style="margin-bottom:30px;">
+              From warm lather straight-razor shaves to bespoke scissor tailoring, Men Salon stands for unhurried craftsmanship and welcoming neighborhood tradition.
+            </p>
+            <button type="button" class="btn-gold" data-open-booking="">Book Your Visit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" style="background:var(--bg-dark-2);border-top:1px solid var(--border-subtle);border-bottom:1px solid var(--border-subtle);">
+      <div class="container">
+        <div class="section-header-center reveal">
+          <span class="eyebrow">Our History</span>
+          <h2 class="section-title">Three Decades of Craft</h2>
+          <p class="section-desc">How a single neighborhood barber chair evolved into New York’s destination for refined men’s grooming.</p>
+        </div>
+
+        <div class="history-timeline">
+          <article class="timeline-card reveal">
+            <div class="timeline-year">1998</div>
+            <h3>First Chair</h3>
+            <p>It all started with a single chair, a pair of sharp scissors, and a passion for timeless barbering. From the very beginning, our focus was simple: great cuts, honest craft, and a welcoming experience.</p>
+          </article>
+
+          <article class="timeline-card reveal">
+            <div class="timeline-year">2015</div>
+            <h3>A New Generation</h3>
+            <p>New barbers joined the journey, bringing fresh ideas and contemporary fade techniques while keeping the hot-towel traditions that defined Men Salon at the heart of every cut.</p>
+          </article>
+
+          <article class="timeline-card reveal">
+            <div class="timeline-year">2026</div>
+            <h3>Modern Flagship</h3>
+            <p>Today our studio at 123 Barber Street welcomes over 10,000 returning gentlemen every year, uniting bespoke grooming consultations with contemporary architectural comfort.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad">
+      <div class="container">
+        <div class="section-header-split reveal">
+          <div>
+            <span class="eyebrow">Our Team</span>
+            <h2 class="section-title">Meet Our Barbers</h2>
+          </div>
+          <p class="section-desc">Meet our talented barbers, dedicated to delivering precision haircuts, expert grooming, and personalized service for every gentleman.</p>
+        </div>
+        <div id="teamGridMount" class="reveal"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="siteFooterMount"></div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

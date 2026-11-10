@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Client Reviews — Men Salon</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="siteHeaderMount"></div>
+
+  <main>
+    <section class="subpage-hero">
+      <div class="container">
+        <span class="eyebrow">What They Say</span>
+        <h1>Reviews</h1>
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="sep">/</span>
+          <span>Reviews</span>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section-pad">
+      <div class="container">
+        <div class="section-header-split reveal">
+          <div>
+            <span class="eyebrow">5.0 ★ Studio Rating</span>
+            <h2 class="section-title">Words From Our Clients</h2>
+          </div>
+          <p class="section-desc">Trusted by over 10,000 returning clients across New York for consistency, precision, and relaxing atmosphere.</p>
+        </div>
+
+        <div class="reviews-page-grid reveal" id="reviewsPageGrid"></div>
+
+        <!-- Leave a Review Form -->
+        <div class="booking-form-card reveal" style="margin-top:64px;max-width:760px;">
+          <span class="eyebrow">Share Your Experience</span>
+          <h3 style="font-size:32px;margin-bottom:20px;">Leave a Studio Review</h3>
+          <form id="leaveReviewForm">
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label for="revName">Your Name</label>
+                <input id="revName" type="text" class="form-control" required placeholder="e.g. Marcus Reed" />
+              </div>
+              <div class="form-group">
+                <label for="revService">Service Received</label>
+                <select id="revService" class="form-control">
+                  <option value="Classic Haircut">Classic Haircut</option>
+                  <option value="Modern Fade">Modern Fade</option>
+                  <option value="Beard Trim">Beard Trim</option>
+                  <option value="Hot Towel Shave">Hot Towel Shave</option>
+                  <option value="Hair & Beard Combo">Hair &amp; Beard Combo</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="revRating">Rating</label>
+              <select id="revRating" class="form-control">
+                <option value="5">★★★★★ (5/5)</option>
+                <option value="4">★★★★☆ (4/5)</option>
+                <option value="3">★★★☆☆ (3/5)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="revQuote">Your Review</label>
+              <textarea id="revQuote" rows="3" class="form-control" required placeholder="Tell us about your visit..."></textarea>
+            </div>
+            <button type="submit" class="btn-gold">Submit Review</button>
+            <div id="reviewSubmitNotice" style="display:none;margin-top:14px;color:var(--primary);font-weight:600;">
+              Thank you! Your review has been published above.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="siteFooterMount"></div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

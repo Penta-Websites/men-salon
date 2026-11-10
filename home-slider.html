@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Men Salon — Slider Hero Demo</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="siteHeaderMount"></div>
+
+  <main>
+    <!-- FULLSCREEN BANNER SLIDER HERO -->
+    <section class="hero-slider-section" id="heroBannerSlider">
+      <div class="hero-slide active">
+        <div class="hero-slide-bg"><img src="assets/images/banner-6.webp" alt="Men Salon Signature Grooming" /></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-center-content">
+          <div class="hero-emblem-lockup">
+            <span class="emblem-ring" aria-hidden="true">✂</span>
+            <span class="emblem-name">Men Salon</span>
+            <span class="emblem-est">Est. 1998</span>
+          </div>
+          <h1 class="hero-center-title">Sharp Cuts, Timeless Style, Premium Grooming Experience</h1>
+          <p class="hero-center-desc">From classic cuts to modern styles, our expert barbers deliver precision grooming and personalized care so you always look your best.</p>
+          <div class="hero-btn-group">
+            <a href="services.html" class="btn-outline">Our Services</a>
+            <button type="button" class="btn-gold" data-open-booking="">Book Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-slide">
+        <div class="hero-slide-bg"><img src="assets/images/banner-7.webp" alt="Men Salon Modern Fades" /></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-center-content">
+          <div class="hero-emblem-lockup">
+            <span class="emblem-ring" aria-hidden="true">✂</span>
+            <span class="emblem-name">Men Salon</span>
+            <span class="emblem-est">Est. 1998</span>
+          </div>
+          <h2 class="hero-center-title">Fresh Cuts, Refined Style, Unmatched Grooming Experience</h2>
+          <p class="hero-center-desc">From timeless cuts to modern styles, our skilled barbers provide expert grooming and personalized care to keep you looking sharp and confident.</p>
+          <div class="hero-btn-group">
+            <a href="services.html" class="btn-outline">Our Services</a>
+            <button type="button" class="btn-gold" data-open-booking="">Book Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-slide">
+        <div class="hero-slide-bg"><img src="assets/images/banner-8.webp" alt="Traditional Hot Towel Shaves" /></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-center-content">
+          <div class="hero-emblem-lockup">
+            <span class="emblem-ring" aria-hidden="true">✂</span>
+            <span class="emblem-name">Men Salon</span>
+            <span class="emblem-est">Est. 1998</span>
+          </div>
+          <h2 class="hero-center-title">Heritage Craft Meets Contemporary Barbershop Luxury</h2>
+          <p class="hero-center-desc">Experience traditional hot towel shaves, tailored scissor trims, and signature beard sculpting in the heart of New York.</p>
+          <div class="hero-btn-group">
+            <a href="services.html" class="btn-outline">Our Services</a>
+            <button type="button" class="btn-gold" data-open-booking="">Book Now</button>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="slider-arrow prev" aria-label="Previous slide">❮</button>
+      <button type="button" class="slider-arrow next" aria-label="Next slide">❯</button>
+      <div class="slider-dots" role="tablist" aria-label="Slide selector">
+        <button type="button" class="slider-dot active" aria-label="Slide 1"></button>
+        <button type="button" class="slider-dot" aria-label="Slide 2"></button>
+        <button type="button" class="slider-dot" aria-label="Slide 3"></button>
+      </div>
+    </section>
+
+    <section class="section-pad" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-media-wrap reveal">
+            <div class="parallax-frame"><img src="assets/images/about-image.webp" alt="Men Salon Studio" loading="lazy" /></div>
+            <div class="ms-rotate-badge">
+              <svg class="spinner" viewBox="0 0 100 100">
+                <defs><path id="circlePathSlider" d="M50,50 m-37,0 a37,37 0 1,1 74,0 a37,37 0 1,1 -74,0" /></defs>
+                <text><textPath href="#circlePathSlider">CRAFTED FOR MODERN GENTLEMEN &bull; </textPath></text>
+              </svg>
+              <div class="ms-rotate-center-icon" aria-hidden="true">✂</div>
+            </div>
+          </div>
+          <div class="reveal">
+            <span class="eyebrow">About Us</span>
+            <h2 class="section-title">Crafting Timeless Styles, Building Confidence</h2>
+            <p style="margin-bottom:28px;">Our skilled barbers combine classic techniques with modern trends to deliver clean cuts, precision fades, and perfectly groomed beards.</p>
+            <a href="about-us.html" class="advance-btn">Discover <span class="adv-icon">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad services-section" id="services">
+      <div class="container">
+        <div class="section-header-split reveal">
+          <div><span class="eyebrow">What We Do</span><h2 class="section-title">Our Services</h2></div>
+          <p class="section-desc">Precision haircuts, beard grooming, and classic shaves crafted to keep you looking sharp every visit.</p>
+        </div>
+        <div id="servicesHomeMount" class="reveal"></div>
+      </div>
+    </section>
+
+    <section class="section-pad reviews-showcase" id="reviews">
+      <div class="container">
+        <div class="section-header-split reveal">
+          <div><span class="eyebrow">Client Voices</span><h2 class="section-title">Trusted Reflections</h2></div>
+          <div class="reviews-controls">
+            <button type="button" class="circle-nav-btn" id="revPrevBtn" aria-label="Previous review">❮</button>
+            <button type="button" class="circle-nav-btn" id="revNextBtn" aria-label="Next review">❯</button>
+          </div>
+        </div>
+        <div class="reviews-track-wrap reveal"><div class="reviews-horizontal-track" id="reviewsHorizontalTrack"></div></div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="team" style="background:var(--bg-dark-2);border-top:1px solid var(--border-subtle);">
+      <div class="container">
+        <div class="section-header-split reveal">
+          <div><span class="eyebrow">Our Team</span><h2 class="section-title">Meet Our Barbers</h2></div>
+          <p class="section-desc">Dedicated master barbers delivering precision haircuts and personalized care.</p>
+        </div>
+        <div id="teamGridMount" class="reveal"></div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="gallery">
+      <div class="container">
+        <div class="section-header-center reveal">
+          <span class="eyebrow">Our Gallery</span>
+          <h2 class="section-title">Signature Styles</h2>
+        </div>
+        <div id="galleryHomeMount" class="reveal"></div>
+      </div>
+    </section>
+
+    <section class="section-pad booking-section" id="booking">
+      <div class="container">
+        <div class="section-header-split reveal">
+          <div><span class="eyebrow">Reservation</span><h2 class="section-title">Book an Appointment</h2></div>
+          <p class="section-desc">Reserve your chair today for expert grooming and timeless style tailored to you.</p>
+        </div>
+        <div class="booking-grid">
+          <div class="booking-form-card reveal" id="inlineBookingCard"></div>
+          <div class="reveal" id="openingHoursMount"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="siteFooterMount"></div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

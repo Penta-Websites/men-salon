@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Men Salon — Luxury Barbershop &amp; Hair Salon Template</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="siteHeaderMount"></div>
+
+  <main>
+    <!-- 1. HERO COLLAGE & ROTATING TITLE SLIDER -->
+    <section class="hero-main" id="home">
+      <div class="container">
+        <div class="hero-main-grid">
+          <div class="hero-founder-box reveal">
+            <span class="eyebrow">Master Grooming Studio</span>
+            <div class="ms-title-slider" aria-label="Featured Services">
+              <div class="ms-title-slider-track" id="heroTitleTrack">
+                <div class="ms-title-slider-slide"><h1 class="ms-title-slider-title">Classic Haircuts</h1></div>
+                <div class="ms-title-slider-slide"><h1 class="ms-title-slider-title">Beard Trim</h1></div>
+                <div class="ms-title-slider-slide"><h1 class="ms-title-slider-title">Skin Fade</h1></div>
+              </div>
+            </div>
+
+            <p class="hero-lead">
+              We craft precision haircuts, signature beard grooming, and refined styling that elevate your confidence through expert craftsmanship and timeless barbering tradition.
+            </p>
+
+            <div class="hero-signature-row">
+              <img src="assets/images/signature.svg" alt="Samuel Sterling Signature" class="hero-signature-img" />
+              <div class="founder-meta">
+                <h4>Samuel Sterling</h4>
+                <span>Founder &amp; Master Barber</span>
+              </div>
+            </div>
+
+            <div style="display:flex;gap:16px;flex-wrap:wrap;">
+              <button type="button" class="btn-gold" data-open-booking="">Book Your Chair</button>
+              <a href="services.html" class="btn-outline">Explore Services</a>
+            </div>
+          </div>
+
+          <div class="hero-collage reveal">
+            <div class="collage-card collage-1"><img src="assets/images/homepage-1.webp" alt="Men Salon Precision Cut" /></div>
+            <div class="collage-card collage-2"><img src="assets/images/homepage-2.webp" alt="Classic Barbershop Chair" /></div>
+            <div class="collage-card collage-3"><img src="assets/images/homepage-3.webp" alt="Beard Styling Craft" /></div>
+            <div class="collage-card collage-4"><img src="assets/images/homepage-4.webp" alt="Luxury Grooming Studio" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT US + PARALLAX + ROTATING BADGE -->
+    <section class="section-pad" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-media-wrap reveal">
+            <div class="parallax-frame">
+              <img src="assets/images/about-image.webp" alt="Inside Men Salon Studio" loading="lazy" />
+            </div>
+            <div class="ms-rotate-badge" aria-label="Crafted For Modern Gentlemen">
+              <svg class="spinner" viewBox="0 0 100 100">
+                <defs>
+                  <path id="circlePathHome" d="M50,50 m-37,0 a37,37 0 1,1 74,0 a37,37 0 1,1 -74,0" />
+                </defs>
+                <text><textPath href="#circlePathHome">CRAFTED FOR MODERN GENTLEMEN &bull; </textPath></text>
+              </svg>
+              <div class="ms-rotate-center-icon" aria-hidden="true">✂</div>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <span class="eyebrow">About Us</span>
+            <h2 class="section-title">Crafting Timeless Styles, Building Confidence</h2>
+            <p style="margin-bottom:28px;">
+              Our skilled barbers combine classic techniques with modern trends to deliver clean cuts, precision fades, and perfectly groomed beards. Every appointment is tailored to your style, ensuring exceptional service, premium care, and a relaxing atmosphere where you always leave looking sharp and feeling your absolute best.
+            </p>
+            <div style="display:flex;gap:36px;margin-bottom:34px;flex-wrap:wrap;padding:20px 0;border-top:1px solid var(--border-subtle);border-bottom:1px solid var(--border-subtle);">
+              <div>
+                <div style="font-family:var(--title-font);font-size:38px;color:var(--primary);line-height:1;">1998</div>
+                <div style="font-size:13px;text-transform:uppercase;letter-spacing:0.1em;">Established</div>
+              </div>
+              <div>
+                <div style="font-family:var(--title-font);font-size:38px;color:var(--primary);line-height:1;">10k+</div>
+                <div style="font-size:13px;text-transform:uppercase;letter-spacing:0.1em;">Happy Clients</div>
+              </div>
+              <div>
+                <div style="font-family:var(--title-font);font-size:38px;color:var(--primary);line-height:1;">5.0★</div>
+                <div style="font-size:13px;text-transform:uppercase;letter-spacing:0.1em;">Average Rating</div>
+              </div>
+            </div>
+            <a href="about-us.html" class="advance-btn">
+              Discover Our Heritage <span class="adv-icon">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. OUR SERVICES (01 - 06) -->
+    <section class="section-pad services-section" id="services">
+      <div class="container">
+        <div class="section-header-split reveal">
+          <div>
+            <span class="eyebrow">What We Do</span>
+            <h2 class="section-title">Our Services</h2>
+          </div>
+          <p class="section-desc">
+            Experience premium barbering with precision haircuts, beard grooming, and classic shaves, crafted to keep you looking sharp every visit.
+          </p>
+        </div>
+
+        <div id="servicesHomeMount" class="reveal"></div>
+      </div>
+    </section>
+
+    <!-- 4. CLIENT TESTIMONIALS (HORIZONTAL SCROLL SHOWCASE) -->
+    <section class="section-pad reviews-showcase" id="reviews">
+      <div class="container">
+        <div class="section-header-split reveal">
+          <div>
+            <span class="eyebrow">Client Voices</span>
+            <h2 class="section-title">Trusted Reflections</h2>
+          </div>
+          <div class="reviews-controls">
+            <button type="button" class="circle-nav-btn" id="revPrevBtn" aria-label="Previous review">❮</button>
+            <button type="button" class="circle-nav-btn" id="revNextBtn" aria-label="Next review">❯</button>
+          </div>
+        </div>
+
+        <div class="reviews-track-wrap reveal">
+          <div class="reviews-horizontal-track" id="reviewsHorizontalTrack"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. MEET OUR BARBERS -->
+    <section class="section-pad" id="team" style="background:var(--bg-dark-2);border-top:1px solid var(--border-subtle);">
+      <div class="container">
+        <div class="section-header-split reveal">
+          <div>
+            <span class="eyebrow">Our Team</span>
+            <h2 class="section-title">Meet Our Barbers</h2>
+          </div>
+          <p class="section-desc">
+            Meet our talented barbers, dedicated to delivering precision haircuts, expert grooming, and personalized service for every gentleman.
+          </p>
+        </div>
+
+        <div id="teamGridMount" class="reveal"></div>
+      </div>
+    </section>
+
+    <!-- 6. OUR LOCATION -->
+    <section class="location-banner" id="location">
+      <div class="container">
+        <div class="location-grid">
+          <div class="reveal">
+            <span class="eyebrow">Visit The Studio</span>
+            <h2 class="section-title">Our Location</h2>
+            <p class="location-address">
+              123 Barber Street<br />
+              New York, NY 10001
+            </p>
+            <a href="tel:15551234567" class="location-phone">+1 (555) 123-4567</a>
+            <div>
+              <a href="booking.html" class="btn-gold">Reserve Your Visit</a>
+            </div>
+          </div>
+
+          <div class="location-map-card reveal">
+            <iframe
+              title="Men Salon Studio Location Map"
+              loading="lazy"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-74.006%2C40.742%2C-73.988%2C40.755&amp;layer=mapnik"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. SIGNATURE STYLES MASONRY GALLERY -->
+    <section class="section-pad" id="gallery">
+      <div class="container">
+        <div class="section-header-center reveal">
+          <span class="eyebrow">Our Gallery</span>
+          <h2 class="section-title">Signature Styles</h2>
+          <p class="section-desc">
+            Explore our gallery showcasing precision haircuts, signature beard grooming, and timeless styles crafted with skill, passion, and attention to every detail.
+          </p>
+        </div>
+
+        <div id="galleryHomeMount" class="reveal"></div>
+      </div>
+    </section>
+
+    <!-- 8. BOOK AN APPOINTMENT & OPENING HOURS -->
+    <section class="section-pad booking-section" id="booking">
+      <div class="container">
+        <div class="section-header-split reveal">
+          <div>
+            <span class="eyebrow">Reservation</span>
+            <h2 class="section-title">Book an Appointment</h2>
+          </div>
+          <p class="section-desc">
+            Reserve your chair today for expert grooming and timeless style tailored to you.
+          </p>
+        </div>
+
+        <div class="booking-grid">
+          <div class="booking-form-card reveal" id="inlineBookingCard"></div>
+          <div class="reveal" id="openingHoursMount"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="siteFooterMount"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

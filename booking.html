@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book an Appointment — Men Salon</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="siteHeaderMount"></div>
+
+  <main>
+    <section class="subpage-hero">
+      <div class="container">
+        <span class="eyebrow">Your Next Cut</span>
+        <h1>Booking</h1>
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="sep">/</span>
+          <span>Booking</span>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section-pad">
+      <div class="container">
+        <div class="section-header-split reveal">
+          <div>
+            <span class="eyebrow">Reservation</span>
+            <h2 class="section-title">Reserve Your Chair</h2>
+          </div>
+          <p class="section-desc">Choose your service, preferred master barber, date, and time slot. Reservations are confirmed instantly with a reference code.</p>
+        </div>
+
+        <div class="booking-grid">
+          <div class="booking-form-card reveal" id="inlineBookingCard"></div>
+          <div class="reveal" id="openingHoursMount"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="location-banner">
+      <div class="container">
+        <div class="location-grid">
+          <div class="reveal">
+            <span class="eyebrow">Studio Address</span>
+            <h2 class="section-title">Our Location</h2>
+            <p class="location-address">
+              123 Barber Street<br />
+              New York, NY 10001
+            </p>
+            <a href="tel:15551234567" class="location-phone">+1 (555) 123-4567</a>
+          </div>
+          <div class="location-map-card reveal">
+            <iframe
+              title="Men Salon Studio Location Map"
+              loading="lazy"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-74.006%2C40.742%2C-73.988%2C40.755&amp;layer=mapnik"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="siteFooterMount"></div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
